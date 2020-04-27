@@ -1,0 +1,8 @@
+<div class="p-grid">
+    <div class="p-sm-12 p-md-10 p-md-offset-1">
+        <app-filters (response)="tableData($event)"></app-filters>
+        <app-table [items]="items"></app-table>
+    </div>
+
+</div>
+<router-outlet></router-outlet>

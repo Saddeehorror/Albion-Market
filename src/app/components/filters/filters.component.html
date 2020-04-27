@@ -1,0 +1,17 @@
+<div class="p-grid">
+    <div class="p-col">
+        <p-multiSelect [options]="type" [defaultLabel]="'Todos'" [selectedItemsLabel]="'{0} Elementos Seleccionados'" (onChange)="setType($event)"></p-multiSelect>
+    </div>
+    <div class="p-col">
+        <p-multiSelect [options]="categorie" [defaultLabel]="'Todas'" [selectedItemsLabel]="'{0} Elementos Seleccionados'" (onChange)="setCategorie($event)"></p-multiSelect>
+    </div>
+    <div class="p-col">
+        <p-multiSelect [options]="echant" [defaultLabel]="'Todas'" [selectedItemsLabel]="'{0} Elementos Seleccionados'" (onChange)="setCategorie($event)"></p-multiSelect>
+    </div>
+    <div class="p-col">
+        <p-dropdown [options]="quality"></p-dropdown>
+    </div>
+    <div class="p-col">
+        <p-multiSelect [options]="cities" [defaultLabel]="'Todas'" [selectedItemsLabel]="'{0} Elementos Seleccionados'" (onChange)="setCities($event)"></p-multiSelect>
+    </div>
+</div>
